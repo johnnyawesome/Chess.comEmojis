@@ -8,7 +8,7 @@
    It's just that your normal hardware-keyboard can't type Unicode, but ASCII.
    Visit the same site on your cellphone, click the emoji button on the onscreen-keyboard, and you can use all Unicode Emojis without this script.**
    
-   **This script only enables your Desktop/Laptop to do the SAME THING your cellphone has been able to do for years.**
+   **This script only enables your Desktop/Laptop to do the SAME thing your cellphone has been able to do for YEARS.**
 
 ## Add some more 💩Emojis💩 to Chess.com Chat Function
 
