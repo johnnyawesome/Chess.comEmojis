@@ -4,7 +4,6 @@
 
 So basically, in a Chess.com Livestream, you only have these Emojis:
 
-
 ![chesscomemojis](https://user-images.githubusercontent.com/35241451/35693837-b94555ea-077f-11e8-969f-08eaa345c623.jpg)
 
 Since we can paste Unicode in the Textarea (where blabla is written), you can paste ALL UNICODE EMOJIS that there are.
@@ -13,7 +12,7 @@ So this script adds a little dropdown to your usual text chat:
 
 ![chesscomemojisadded](https://user-images.githubusercontent.com/35241451/35694112-87a24b3c-0780-11e8-8574-730e68cd949d.jpg)
 
-When you open it, you'll be presented with a selection of Non-Sanctioned Emojis you can post:
+When you open it, you'll be presented with a selection of additional non standard Emojis you can post:
 
 ![chesscomemojislistadded](https://user-images.githubusercontent.com/35241451/35694397-8784e410-0781-11e8-96f9-e8dfce4bf45c.jpg)
 
@@ -32,6 +31,10 @@ There are several possibilities to run it:
  - Greasemonkey in Firefox
  - It even works from Firefoxes Scratchpad if you don't want to install the Plugin.
    (Settings --> Web Developer --> Scratchpad. Paste there, click RUN while on the  [Chess.com Streaming Website](https://www.chess.com/tv))
+   
+   ##Bugreport
+   
+   So I don't know if this is a bug or intended (the only thing you do is copying a character. (A Character you would even have on your standard onscreen keyboard if you would open the site on your cellphone), but to be sure, I filed a Bugreport with chess.com well before posting this script. It can be found here: https://www.chess.com/forum/view/help-support/abusing-the-comment-function-on-chess-com
    
    
    
