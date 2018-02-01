@@ -2,11 +2,11 @@
 
 ## Bugreport / Disclaimer
    
-   So I don't know if this is a bug or intended (the only thing you do is copying a character. (A Character you would even have on your standard onscreen keyboard if you would open the site on your cellphone), but to be sure, I filed a Bugreport with chess.com well before posting this script. It can be found here: https://www.chess.com/forum/view/help-support/abusing-the-comment-function-on-chess-com
+   So I don't know if this is a bug or intended. The only thing you do is copying a character. (A Character you would even have on your standard onscreen keyboard if you would open the site on your cellphone), but to be sure, I filed a Bugreport with chess.com well before posting this script. It can be found here: https://www.chess.com/forum/view/help-support/abusing-the-comment-function-on-chess-com
    
    **Again: this is nothing fancy or forbidden. They ALLOW Unicode in the chat.
    It's just that your normal hardware-keyboard can't type it.
-   Visit the same site on your cellphone, click the emoji button on the onscreen-keyboard, and you don't need this script.**
+   Visit the same site on your cellphone, click the emoji button on the onscreen-keyboard, and you can use all Unicode Emojis without this script.**
 
 ## Add some more 💩Emojis💩 to Chess.com Chat Function
 
