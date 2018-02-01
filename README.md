@@ -25,9 +25,9 @@ Just hit space and it works. :)
 
 Here's a complete List of [ALL UNICODE EMOJIYS](http://unicode.org/emoji/charts/emoji-style.txt) so you can edit the script to your liking.
 
-## How to run it
+## How to run the script
 
-There are several possibilities how to run it:
+There are several possibilities to run it:
  - It works in TamperMonkey (Available for all Browsers)
  - Greasemonkey in Firefox
  - It even works from Firefoxes Scratchpad if you don't want to install the Plugin.
