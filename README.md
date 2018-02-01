@@ -1,6 +1,6 @@
 # Chess.comEmojis
 
-## Adds some more Emojis to Chess.com Livestream
+## Adds some more 💩Emojis💩 to Chess.com Livestream
 
 So basically, in a Chess.com Livestream, you only have these Emojis:
 
@@ -18,13 +18,22 @@ When you open it, you'll be presented with a selection of Non-Sanctioned Emojis 
 ![chesscomemojislistadded](https://user-images.githubusercontent.com/35241451/35694397-8784e410-0781-11e8-96f9-e8dfce4bf45c.jpg)
 
 Just select one, and  **HIT SPACE in the textarea after inserting it**. Then hit Enter and it will post. 
-I don't know why it needs the space, maybe an Event Listener somewhere waiting for keystrokes.
+I don't know why it needs the space (or some other key) behind it, maybe an Event Listener somewhere waiting for keystrokes.
+Just hit space and it works. :)
 
-##How to use
-
-##Additional Resources
+## Additional Resources
 
 Here's a complete List of [ALL UNICODE EMOJIYS](http://unicode.org/emoji/charts/emoji-style.txt) so you can edit the script to your liking.
 
+## How to run it
+
+There are several possibilities how to run it:
+ - It works in TamperMonkey (Available for all Browsers)
+ - Greasemonkey in Firefox
+ - It even works from Firefoxes Scratchpad if you don't want to install the Plugin.
+   (Settings --> Web Developer --> Scratchpad. Paste there, click RUN while on the  [Chess.com Streaming Website](https://www.chess.com/tv))
+   
+   
+   
 
 
