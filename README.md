@@ -7,6 +7,8 @@
    **Again: this is nothing fancy or forbidden. They ALLOW Unicode in the chat.
    It's just that your normal hardware-keyboard can't type Unicode, but ASCII.
    Visit the same site on your cellphone, click the emoji button on the onscreen-keyboard, and you can use all Unicode Emojis without this script.**
+   
+   **This script only enables your Desktop/Laptop to do the SAME THING your cellphone has been able to do for years.**
 
 ## Add some more 💩Emojis💩 to Chess.com Chat Function
 
