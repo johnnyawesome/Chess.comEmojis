@@ -1,8 +1,16 @@
 # Chess.comEmojis
 
-## Adds some more 💩Emojis💩 to Chess.com Livestream
+## Bugreport / Disclaimer
+   
+   So I don't know if this is a bug or intended (the only thing you do is copying a character. (A Character you would even have on your standard onscreen keyboard if you would open the site on your cellphone), but to be sure, I filed a Bugreport with chess.com well before posting this script. It can be found here: https://www.chess.com/forum/view/help-support/abusing-the-comment-function-on-chess-com
+   
+   **Again: this is nothing fancy or forbidden. They ALLOW Unicode in the chat.
+   It's just that your normal hardware-keyboard can't type it.
+   Visit the same site on your cellphone, click the emoji button on the onscreen-keyboard, and you don't need this script.**
 
-So basically, in a Chess.com Livestream, you only have these Emojis:
+## Add some more 💩Emojis💩 to Chess.com Chat Function
+
+So basically, in a Chess.com Livestream, you only have these Emojis for the chat section:
 
 ![chesscomemojis](https://user-images.githubusercontent.com/35241451/35693837-b94555ea-077f-11e8-969f-08eaa345c623.jpg)
 
@@ -32,9 +40,7 @@ There are several possibilities to run it:
  - It even works from Firefoxes Scratchpad if you don't want to install the Plugin.
    (Settings --> Web Developer --> Scratchpad. Paste there, click RUN while on the  [Chess.com Streaming Website](https://www.chess.com/tv))
    
-   ##Bugreport
-   
-   So I don't know if this is a bug or intended (the only thing you do is copying a character. (A Character you would even have on your standard onscreen keyboard if you would open the site on your cellphone), but to be sure, I filed a Bugreport with chess.com well before posting this script. It can be found here: https://www.chess.com/forum/view/help-support/abusing-the-comment-function-on-chess-com
+
    
    
    
