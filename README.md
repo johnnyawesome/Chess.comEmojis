@@ -17,8 +17,14 @@ When you open it, you'll be presented with a selection of Non-Sanctioned Emojis 
 
 ![chesscomemojislistadded](https://user-images.githubusercontent.com/35241451/35694397-8784e410-0781-11e8-96f9-e8dfce4bf45c.jpg)
 
-Just select one, and  **HIT SPACE after inserting it**. Then hit Enter and it will post. 
+Just select one, and  **HIT SPACE in the textarea after inserting it**. Then hit Enter and it will post. 
 I don't know why it needs the space, maybe an Event Listener somewhere waiting for keystrokes.
+
+##How to use
+
+##Additional Resources
+
+Here's a complete List of [ALL UNICODE EMOJIYS](http://unicode.org/emoji/charts/emoji-style.txt) so you can edit the script to your liking.
 
 
 
