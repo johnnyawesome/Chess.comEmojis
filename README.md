@@ -27,7 +27,7 @@ Here's a complete List of [ALL UNICODE EMOJIYS](http://unicode.org/emoji/charts/
 ## How to run the script
 
 There are several possibilities to run it:
- - It works in [TamperMonkey]  (https://www.google.ch/search?q=tampermonkey) (Available for all Browsers)
+ - It works in [TamperMonkey (Available for all Browsers)](https://www.google.ch/search?q=tampermonkey)
  - Greasemonkey in Firefox
  - It even works from Firefoxes Scratchpad if you don't want to install the Plugin.
    (Settings --> Web Developer --> Scratchpad. Paste there, click RUN while on the  [Chess.com Streaming Website](https://www.chess.com/tv))
