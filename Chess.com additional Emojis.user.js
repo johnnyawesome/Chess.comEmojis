@@ -30,7 +30,17 @@
 		s.setAttribute('onchange', 'insertEmoji()');
 		s.setAttribute('id', 'selection');
 
-		//Creates an Emoji
+		/*
+		Creates the Emojis
+
+		Replace the emojis you see with your own!
+		Here's a complete List of all available Emojis http://unicode.org/emoji/charts/emoji-style.txt
+
+		You can even add some more Emojis yourself. Just copy & paste one of the codeblocks.
+		Add it to the end of the other blocks and increment the numbers(e.g. If you copy block 20, replace every number 20 with 21 after pasting the new block)
+
+		*/
+
 		var x1 = document.createElement('OPTION');
 		var t1 = document.createTextNode('💩');
 		x1.addEventListener("click", insertEmoji);
@@ -50,25 +60,25 @@
 		s.appendChild(x3);
 
 		var x4 = document.createElement('OPTION');
-		var t4 = document.createTextNode('☠️');
+		var t4 = document.createTextNode('💀');
 		x4.addEventListener("click", insertEmoji);
 		x4.appendChild(t4);
 		s.appendChild(x4);
 
 		var x5 = document.createElement('OPTION');
-		var t5 = document.createTextNode('🤡');
+		var t5 = document.createTextNode('☠️');
 		x5.addEventListener("click", insertEmoji);
 		x5.appendChild(t5);
 		s.appendChild(x5);
 
 		var x6 = document.createElement('OPTION');
-		var t6 = document.createTextNode('🤢');
+		var t6 = document.createTextNode('🤡');
 		x6.addEventListener("click", insertEmoji);
 		x6.appendChild(t6);
 		s.appendChild(x6);
 
 		var x7 = document.createElement('OPTION');
-		var t7 = document.createTextNode('💀');
+		var t7 = document.createTextNode('🤢');
 		x7.addEventListener("click", insertEmoji);
 		x7.appendChild(t7);
 		s.appendChild(x7);
@@ -86,13 +96,13 @@
 		s.appendChild(x9);
 
 		var x10 = document.createElement('OPTION');
-		var t10 = document.createTextNode(' 🚹 💩 🚽');
+		var t10 = document.createTextNode('🚹 💩 🚽');
 		x10.addEventListener("click", insertEmoji);
 		x10.appendChild(t10);
 		s.appendChild(x10);
 
 		var x11 = document.createElement('OPTION');
-		var t11 = document.createTextNode(' 😘 😘 😘');
+		var t11 = document.createTextNode('😘 😘 😘');
 		x11.addEventListener("click", insertEmoji);
 		x11.appendChild(t11);
 		s.appendChild(x11);
@@ -116,11 +126,12 @@
 		s.appendChild(x14);
 
 		var x15 = document.createElement('OPTION');
-		var t15 = document.createTextNode('👬 🌈');
+		var t15 = document.createTextNode('🌈 👬 🌈');
 		x15.addEventListener("click", insertEmoji);
 		x15.appendChild(t15);
 		s.appendChild(x15);
 
+		//The :mate makes use of chess.com's own Emoji for a mated king.
 		var x16 = document.createElement('OPTION');
 		var t16 = document.createTextNode(':mate 💩');
 		x16.addEventListener("click", insertEmoji);
@@ -146,12 +157,13 @@
 		s.appendChild(x19);
 
 		var x20 = document.createElement('OPTION');
-		var t20 = document.createTextNode(' :mate 🖕🏼');
+		var t20 = document.createTextNode(':mate 🖕🏼');
 		x20.addEventListener("click", insertEmoji);
 		x20.appendChild(t20);
 		s.appendChild(x20);
 
-		//Appends all the options to the chat in Stream.
+
+		//Appends the Emoji Selector to different chat functions (e.g. livestream, livechess, daily chess etc.)
 		if(document.getElementsByClassName('chat-input').length > 0){
 			document.getElementsByClassName('chat-input') [0].appendChild(s);
 		}
@@ -161,6 +173,7 @@
 		}
 	}
 
+	//Writes your selected Emoji in the Text area
 	function insertEmoji() {
 		var x = document.getElementById('selection').value;
 
