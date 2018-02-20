@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Chess.com additional Emojis
+// @name         Chess.com additional Emojis 2
 // @namespace    https://github.com/johnnyawesome
 // @version      0.1
 // @description  Additional EMojis for Chess.com
@@ -7,6 +7,7 @@
 // @match        https://www.chess.com/tv
 // @match        https://www.chess.com/live*
 // @match        https://www.chess.com/daily*
+// @match        https://www.chess.com/member/*
 // @grant        none
 // @icon         https://cdn0.iconfinder.com/data/icons/pixelo/32/skull.png
 // ==/UserScript==
@@ -164,30 +165,58 @@
 
 
 		//Appends the Emoji Selector to different chat functions (e.g. livestream, livechess, daily chess etc.)
+
+		//Livestream (TV)
 		if(document.getElementsByClassName('chat-input').length > 0){
 			document.getElementsByClassName('chat-input') [0].appendChild(s);
 		}
 
+		//Livechess
 		if(document.getElementsByClassName('send-message').length > 0){
 			document.getElementsByClassName('send-message') [0].appendChild(s);
 		}
+
+		//Daily
+		if(document.getElementsByClassName('send-message').length > 0){
+			document.getElementsByClassName('send-message') [0].appendChild(s);
+		}
+
+		//Profile
+		if(document.getElementsByClassName('section-wrapper activity-list comments').length > 0){
+			document.getElementsByClassName('section-wrapper activity-list comments') [0].appendChild(s);
+		}
+
+
+
+
+
+
 	}
 
 	//Writes your selected Emoji in the Text area
 	function insertEmoji() {
 		var x = document.getElementById('selection').value;
 
+		//TV
 		if(window.location.href.match(/tv/)){
 			document.getElementsByTagName("input")[8].value=x;
 		}
 
+		//Livechess
 		if(window.location.href.match(/live/)){
 			document.getElementsByTagName("input") [5].value=x;
 		}
 
+		//Dailychess
 		if(window.location.href.match(/daily/)){
 			document.getElementsByTagName("textarea") [0].value=x;
 		}
+
+		//Profile
+		if(window.location.href.match(/member/)){
+			document.getElementsByTagName("input") [8].value=x;
+		}
+
 	}
 
 })();
