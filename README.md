@@ -7,9 +7,9 @@ Chess.com ALLOWS Unicode Emojis: Any cellphone onscreen-keyboard has an Emojis b
 This script does the same for your computer/kaptop keyboard which doesn't have an Emoji button built in.
 It lets you add additional Emojis.
 
-## Add some more 💩Emojis💩 to Chess.com Chat Function
+## Add some more 💩Emojis💩 to Chess.com
 
-So basically, in a Chess.com Livestream, Livegame or daily game, you only have these boring Emojis for the chat section:
+So basically, in a Chess.com Livestream, Live- or Daily game, peoples profile page, you only have these boring Emojis for the chat section:
 
 ![chesscomemojis](https://user-images.githubusercontent.com/35241451/35693837-b94555ea-077f-11e8-969f-08eaa345c623.jpg)
 
