@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Chess.com additional Emojis 2
+// @name         Chess.com additional Emojis
 // @namespace    https://github.com/johnnyawesome
-// @version      0.1
+// @version      1.0
 // @description  Additional EMojis for Chess.com
 // @author       JohnnyAwesome
 // @match        https://www.chess.com/tv
@@ -9,7 +9,7 @@
 // @match        https://www.chess.com/daily*
 // @match        https://www.chess.com/member/*
 // @grant        none
-// @icon         https://cdn0.iconfinder.com/data/icons/pixelo/32/skull.png
+// @icon         http://pngimg.com/uploads/chess/chess_PNG8422.png
 // ==/UserScript==
 
 (function() {
@@ -91,25 +91,25 @@
 		s.appendChild(x8);
 
 		var x9 = document.createElement('OPTION');
-		var t9 = document.createTextNode('💋 💋 💋');
+		var t9 = document.createTextNode('😎');
 		x9.addEventListener("click", insertEmoji);
 		x9.appendChild(t9);
 		s.appendChild(x9);
 
 		var x10 = document.createElement('OPTION');
-		var t10 = document.createTextNode('🚹 💩 🚽');
+		var t10 = document.createTextNode('😍');
 		x10.addEventListener("click", insertEmoji);
 		x10.appendChild(t10);
 		s.appendChild(x10);
 
 		var x11 = document.createElement('OPTION');
-		var t11 = document.createTextNode('😘 😘 😘');
+		var t11 = document.createTextNode('🧙 💩');
 		x11.addEventListener("click", insertEmoji);
 		x11.appendChild(t11);
 		s.appendChild(x11);
 
 		var x12 = document.createElement('OPTION');
-		var t12 = document.createTextNode('👙 👙 👙');
+		var t12 = document.createTextNode('🐔 💩');
 		x12.addEventListener("click", insertEmoji);
 		x12.appendChild(t12);
 		s.appendChild(x12);
@@ -121,47 +121,77 @@
 		s.appendChild(x13);
 
 		var x14 = document.createElement('OPTION');
-		var t14 = document.createTextNode('🤣 🤣 🤣');
+		var t14 = document.createTextNode('🙈 🙉 🙊');
 		x14.addEventListener("click", insertEmoji);
 		x14.appendChild(t14);
 		s.appendChild(x14);
 
 		var x15 = document.createElement('OPTION');
-		var t15 = document.createTextNode('🌈 👬 🌈');
+		var t15 = document.createTextNode('🚹 💩 🚽');
 		x15.addEventListener("click", insertEmoji);
 		x15.appendChild(t15);
 		s.appendChild(x15);
 
 		//The :mate makes use of chess.com's own Emoji for a mated king.
 		var x16 = document.createElement('OPTION');
-		var t16 = document.createTextNode(':mate 💩');
+		var t16 = document.createTextNode('👙 ♀ 👙 ♀ 👙');
 		x16.addEventListener("click", insertEmoji);
 		x16.appendChild(t16);
 		s.appendChild(x16);
 
 		var x17 = document.createElement('OPTION');
-		var t17 = document.createTextNode(':mate 🤣 😝');
+		var t17 = document.createTextNode('💋 💋 💋');
 		x17.addEventListener("click", insertEmoji);
 		x17.appendChild(t17);
 		s.appendChild(x17);
 
 		var x18 = document.createElement('OPTION');
-		var t18 = document.createTextNode(':mate 😘');
+		var t18 = document.createTextNode('😘 😘 😘');
 		x18.addEventListener("click", insertEmoji);
 		x18.appendChild(t18);
 		s.appendChild(x18);
 
 		var x19 = document.createElement('OPTION');
-		var t19 = document.createTextNode(':mate 💋');
+		var t19 = document.createTextNode('🤣 🤣 🤣');
 		x19.addEventListener("click", insertEmoji);
 		x19.appendChild(t19);
 		s.appendChild(x19);
 
 		var x20 = document.createElement('OPTION');
-		var t20 = document.createTextNode(':mate 🖕🏼');
+		var t20 = document.createTextNode('🌈 👬 👨‍❤️‍💋‍👨 🌈');
 		x20.addEventListener("click", insertEmoji);
 		x20.appendChild(t20);
 		s.appendChild(x20);
+
+		var x21 = document.createElement('OPTION');
+		var t21 = document.createTextNode(':mate 💩');
+		x21.addEventListener("click", insertEmoji);
+		x21.appendChild(t21);
+		s.appendChild(x21);
+
+		var x22 = document.createElement('OPTION');
+		var t22 = document.createTextNode(':mate 🤣 😝');
+		x22.addEventListener("click", insertEmoji);
+		x22.appendChild(t22);
+		s.appendChild(x22);
+
+		var x23 = document.createElement('OPTION');
+		var t23 = document.createTextNode(':mate 😘');
+		x23.addEventListener("click", insertEmoji);
+		x23.appendChild(t23);
+		s.appendChild(x23);
+
+		var x24 = document.createElement('OPTION');
+		var t24 = document.createTextNode(':mate 💋');
+		x24.addEventListener("click", insertEmoji);
+		x24.appendChild(t24);
+		s.appendChild(x24);
+
+		var x25 = document.createElement('OPTION');
+		var t25 = document.createTextNode(':mate 🖕🏼');
+		x25.addEventListener("click", insertEmoji);
+		x25.appendChild(t25);
+		s.appendChild(x25);
 
 
 		//Appends the Emoji Selector to different chat functions (e.g. livestream, livechess, daily chess etc.)
@@ -175,6 +205,9 @@
 		if(document.getElementsByClassName('send-message').length > 0){
 			document.getElementsByClassName('send-message') [0].appendChild(s);
 		}
+		if(document.getElementsByClassName('chat-input-component_0').length > 0){
+			document.getElementsByClassName('chat-input-component_0') [0].appendChild(s);
+		}
 
 		//Daily
 		if(document.getElementsByClassName('send-message').length > 0){
@@ -185,11 +218,6 @@
 		if(document.getElementsByClassName('section-wrapper activity-list comments').length > 0){
 			document.getElementsByClassName('section-wrapper activity-list comments') [0].appendChild(s);
 		}
-
-
-
-
-
 
 	}
 
@@ -204,6 +232,7 @@
 
 		//Livechess
 		if(window.location.href.match(/live/)){
+			document.getElementsByTagName("input") [1].value=x;
 			document.getElementsByTagName("input") [5].value=x;
 		}
 
