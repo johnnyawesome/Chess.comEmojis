@@ -215,9 +215,16 @@
 		}
 
 		//Profile
+		if(document.getElementsByClassName('active').length > 0){
+			document.getElementsByClassName('active') [0].appendChild(s);
+		}
+
+		//Profile
+		/*
 		if(document.getElementsByClassName('section-wrapper activity-list comments').length > 0){
 			document.getElementsByClassName('section-wrapper activity-list comments') [0].appendChild(s);
 		}
+		*/
 
 	}
 
