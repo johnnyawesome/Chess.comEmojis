@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Chess.com additional Emojis
+// @name         Chess.com additional Emojis 2
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0
+// @version      3.2
 // @description  Additional EMojis for Chess.com
 // @author       JohnnyAwesome
 // @match        https://www.chess.com/tv
@@ -9,7 +9,7 @@
 // @match        https://www.chess.com/daily*
 // @match        https://www.chess.com/member/*
 // @grant        none
-// @icon         http://pngimg.com/uploads/chess/chess_PNG8422.png
+// @icon         https://cdn0.iconfinder.com/data/icons/pixelo/32/skull.png
 // ==/UserScript==
 
 (function() {
@@ -185,46 +185,30 @@
 		var t24 = document.createTextNode(':mate 💋');
 		x24.addEventListener("click", insertEmoji);
 		x24.appendChild(t24);
-		s.appendChild(x24);
-
-		var x25 = document.createElement('OPTION');
-		var t25 = document.createTextNode(':mate 🖕🏼');
-		x25.addEventListener("click", insertEmoji);
-		x25.appendChild(t25);
-		s.appendChild(x25);
+s.appendChild(x24);
 
 
 		//Appends the Emoji Selector to different chat functions (e.g. livestream, livechess, daily chess etc.)
 
 		//Livestream (TV)
-		if(document.getElementsByClassName('chat-input').length > 0){
-			document.getElementsByClassName('chat-input') [0].appendChild(s);
+		if(document.getElementsByClassName('chat-input-component').length > 0){
+			document.getElementsByClassName('chat-input-component') [0].appendChild(s);
 		}
 
 		//Livechess
 		if(document.getElementsByClassName('send-message').length > 0){
 			document.getElementsByClassName('send-message') [0].appendChild(s);
 		}
-		if(document.getElementsByClassName('chat-input-component_0').length > 0){
-			document.getElementsByClassName('chat-input-component_0') [0].appendChild(s);
-		}
 
 		//Daily
-		if(document.getElementsByClassName('send-message').length > 0){
-			document.getElementsByClassName('send-message') [0].appendChild(s);
+		if(document.getElementsByClassName('game-controls-float').length > 0){
+			document.getElementsByClassName('game-controls-float') [0].appendChild(s);
 		}
 
 		//Profile
-		if(document.getElementsByClassName('active').length > 0){
-			document.getElementsByClassName('active') [0].appendChild(s);
+		if(document.getElementsByClassName('input-group').length > 0){
+			document.getElementsByClassName('input-group') [0].appendChild(s);
 		}
-
-		//Profile
-		/*
-		if(document.getElementsByClassName('section-wrapper activity-list comments').length > 0){
-			document.getElementsByClassName('section-wrapper activity-list comments') [0].appendChild(s);
-		}
-		*/
 
 	}
 
@@ -234,13 +218,13 @@
 
 		//TV
 		if(window.location.href.match(/tv/)){
-			document.getElementsByTagName("input")[8].value=x;
+			document.getElementsByTagName("input")[4].value=x;
 		}
 
 		//Livechess
 		if(window.location.href.match(/live/)){
-			document.getElementsByTagName("input") [1].value=x;
-			document.getElementsByTagName("input") [5].value=x;
+			document.getElementsByTagName("input") [8].value=x;
+            document.getElementsByTagName("input") [10].value=x;
 		}
 
 		//Dailychess
@@ -250,7 +234,7 @@
 
 		//Profile
 		if(window.location.href.match(/member/)){
-			document.getElementsByTagName("input") [8].value=x;
+			document.getElementsByTagName("input") [4].value=x;
 		}
 
 	}
