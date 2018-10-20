@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Chess.com additional Emojis
+// @name         Chess.com Additional Emojis
 // @namespace    https://github.com/johnnyawesome
 // @version      1.1
 // @description  Additional Emojis for Chess.com
