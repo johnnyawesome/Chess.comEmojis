@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Chess.com additional Emojis 2
+// @name         Chess.com additional Emojis
 // @namespace    https://github.com/johnnyawesome
-// @version      1.5
-// @description  Additional EMojis for Chess.com
+// @version      1.1
+// @description  Additional Emojis for Chess.com
 // @author       JohnnyAwesome
 // @match        https://www.chess.com/tv
 // @match        https://www.chess.com/live*
