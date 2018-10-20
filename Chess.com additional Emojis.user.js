@@ -11,7 +11,7 @@
 // @grant        none
 // @icon         https://cdn0.iconfinder.com/data/icons/pixelo/32/skull.png
 // @updateURL    https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
-// @downloadURL https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
+// @downloadURL  https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
 // ==/UserScript==
 
 (function() {
