@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chess.com Additional Emojis
 // @namespace    https://github.com/johnnyawesome
-// @version      1.1
+// @version      1.1.1
 // @description  Additional Emojis for Chess.com
 // @author       JohnnyAwesome
 // @match        https://www.chess.com/tv
@@ -9,7 +9,8 @@
 // @match        https://www.chess.com/daily*
 // @match        https://www.chess.com/member/*
 // @grant        none
-// @icon         https://cdn0.iconfinder.com/data/icons/pixelo/32/skull.png
+// @icon         https://raw.githubusercontent.com/johnnyawesome/MyLogo/master/MySkull32.ico
+// @icon64	 https://raw.githubusercontent.com/johnnyawesome/MyLogo/master/MySkull64.ico
 // @updateURL    https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
 // @downloadURL  https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
 // ==/UserScript==
