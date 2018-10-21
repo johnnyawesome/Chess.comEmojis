@@ -15,6 +15,8 @@
 // @downloadURL  https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
 // ==/UserScript==
 
+//test
+
 (function() {
 	'use strict';
 
@@ -212,7 +214,6 @@ s.appendChild(x24);
 		if(document.getElementsByClassName('input-group').length > 0){
 			document.getElementsByClassName('input-group') [0].appendChild(s);
 		}
-
 	}
 
 	//Writes your selected Emoji in the Text area
@@ -238,8 +239,7 @@ s.appendChild(x24);
 		//Profile
 		if(window.location.href.match(/member/)){
 			document.getElementsByTagName("input") [4].value=x;
+			
 		}
-
 	}
-
 })();
