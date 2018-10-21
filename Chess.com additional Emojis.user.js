@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chess.com Additional Emojis
 // @namespace    https://github.com/johnnyawesome
-// @version      1.1.2
+// @version      1.1.3
 // @description  Additional Emojis for Chess.com
 // @author       JohnnyAwesome
 // @match        https://www.chess.com/tv
@@ -14,8 +14,6 @@
 // @updateURL    https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
 // @downloadURL  https://github.com/johnnyawesome/UserscriptChess.comEmojis/raw/master/Chess.com%20additional%20Emojis.user.js
 // ==/UserScript==
-
-//test
 
 (function() {
 	'use strict';
