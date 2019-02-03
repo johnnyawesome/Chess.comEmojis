@@ -4,7 +4,7 @@
 ## Disclaimer
 
 Chess.com ALLOWS Unicode Emojis: Any cellphone onscreen-keyboard has an Emojis button  built in (which chess.com allows you to use).
-This script does the same for your computer/kaptop keyboard which doesn't have an Emoji button built in.
+This script does the same for your computer/laptop keyboard which doesn't have an Emoji button built in.
 It lets you add additional Emojis.
 
 ## Add some more 💩Emojis💩 to Chess.com
